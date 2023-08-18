@@ -33,7 +33,8 @@ function factorial(inputValue) {
 
 
 /**
- * Función para mostrar etiqueta de montos
+ * Función para mostrar factorial
+ * 
  * @return {void}
  */
  function setAlert() {
