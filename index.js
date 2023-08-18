@@ -8,12 +8,21 @@ let result;
 // Write Javascript code!
 document.getElementById('c').addEventListener('click', onInit);
 
+/**
+ * Función para einiciar el proceso
+ * @return {void}
+ */
 function onInit(e) {
   inputValue = document.getElementById('num1').value;
   factorial(inputValue);
   setAlert();
 }
 
+/**
+ * Función para calcular el factorial
+ * 
+ * @return {void}
+ */
 function factorial(inputValue) {
   result = 1;
   for (let i = 1; i <= inputValue; i++) {
