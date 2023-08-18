@@ -9,7 +9,8 @@ let result;
 document.getElementById('c').addEventListener('click', onInit);
 
 /**
- * Función para einiciar el proceso
+ * Función para inicializar proceso principal
+ * 
  * @return {void}
  */
 function onInit(e) {
